@@ -1,0 +1,27 @@
+Please follow these steps to set up the install scripts:
+
+
+
+1. Navigate to the root of the cloned repo/Downloaded ZIP via terminal/file manager
+
+2. open a terminal in that directory
+
+
+3.run:
+
+chmod +x InstallDNF.sh ; chmod +x InstallAPT.sh
+
+-------------------------------------------------------------------------------
+
+To run the scripts type:
+
+
+./InstallDNF.sh (for fedora or RHEL based systems)
+
+./InstallAPT.sh (for Ubuntu or debian based systems)
+
+To run the application type
+
+chmod +x Panic.gambas ; ./Panic.gambas
+
+
