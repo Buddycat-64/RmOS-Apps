@@ -1,5 +1,0 @@
-insmod part_msdos
-insmod ext2
-search --no-floppy --fs-uuid --set=root 0c416c36-579c-454c-835c-88d41f0c2e2c
-linux /boot/vmlinuz-6.1.0-33-amd64 root=UUID=0c416c36-579c-454c-835c-88d41f0c2e2c ro quiet
-initrd /boot/initrd.img-6.1.0-33-amd64
